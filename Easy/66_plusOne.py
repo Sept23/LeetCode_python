@@ -17,7 +17,7 @@ def plusOne1( digits=[6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3,6,1,4,5,3,9,0,1,9,5,
     output = str(int("".join(numbers)) + 1)
     return [int(char) for char in output]
 
-def plusOne_BigNumber(digits=[9]):
+def plusOne_BigNumber(digits=[9,3,3,3,3,3,3,3]):
     carry=1
     for i in range(len(digits)-1,-1,-1):
         temp=digits[i]+1
